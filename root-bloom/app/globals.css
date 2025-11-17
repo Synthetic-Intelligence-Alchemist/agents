@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background-color: #f5f8f2;
+}
+
+body {
+  @apply bg-moss-50 text-moss-900;
+  font-family: var(--font-body), 'Quicksand', system-ui, sans-serif;
+}
+
+a {
+  @apply text-bloom-600 hover:text-bloom-500;
+}
+
+.btn-primary {
+  @apply bg-bloom-500 text-white rounded-full px-6 py-3 font-semibold shadow-sm transition hover:bg-bloom-600;
+}
+
+.card {
+  @apply rounded-3xl border border-moss-100 bg-white/80 shadow-sm backdrop-blur-sm;
+}
